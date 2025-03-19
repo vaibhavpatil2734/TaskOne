@@ -19,9 +19,9 @@ const Register = () => {
         password
       });
 
-      
+
       alert("Registration successful!");
-      navigate("/login");
+      navigate("/");
 
     } catch (error) {
       alert(error.response?.data?.message || "Registration failed.");

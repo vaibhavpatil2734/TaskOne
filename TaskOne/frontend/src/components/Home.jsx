@@ -27,7 +27,7 @@ const Home = () => {
         setMessage(res.data.message);
       } catch (error) {
         console.error(error);
-        navigate("/login");
+        navigate("/");
       } finally {
         setLoading(false);   // ✅ Set loading to false after request
       }
