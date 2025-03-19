@@ -20,7 +20,7 @@ const Register = () => {
       });
 
 
-      alert("Registration successful!");
+      alert("Sign Up Successful!");
       navigate("/");
 
     } catch (error) {

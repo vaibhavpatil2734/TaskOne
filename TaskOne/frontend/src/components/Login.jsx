@@ -18,7 +18,7 @@ const Login = () => {
       });
 
       localStorage.setItem("token", res.data.token);  // ✅ Store JWT token
-      alert("Login successful!");
+      alert("Sign In Successful!");
       navigate("/home");
 
     } catch (error) {
