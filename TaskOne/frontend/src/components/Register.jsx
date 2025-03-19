@@ -19,6 +19,7 @@ const Register = () => {
         password
       });
 
+      
       alert("Registration successful!");
       navigate("/login");
 
