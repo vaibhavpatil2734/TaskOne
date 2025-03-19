@@ -13,7 +13,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-       await axios.post(`http://localhost:5000/api/auth/register`, {
+       await axios.post(`https://taskone-phn9.onrender.com/api/auth/register`, {
         username,
         email,
         password

@@ -18,7 +18,7 @@ const Home = () => {
       }
 
       try {
-        const res = await axios.get("http://localhost:5000/api/home", {
+        const res = await axios.get("https://taskone-phn9.onrender.com/api/home", {
           headers: {
             Authorization: token    // ✅ Send token in header
           }
