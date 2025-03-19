@@ -1,0 +1,25 @@
+/* Styling for the Navbar */
+.navbar {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161b22;
+    padding: 15px 30px;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  .navbar a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #58a6ff;
+  }
+  
