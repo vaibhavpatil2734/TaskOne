@@ -11,11 +11,12 @@ const app = express();
 
 app.use(express.json());
 
-// ✅ CORS Configuration
+// ✅ Updated CORS Configuration with Full Protocol
 app.use(cors({
-    origin: "taskone2.netlify.app",
+    origin: ["https://taskone2.netlify.app"],   // ✅ Use full URL with protocol
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
+    credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 // ✅ Middleware for JWT Authentication
